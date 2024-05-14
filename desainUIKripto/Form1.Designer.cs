@@ -51,6 +51,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -121,6 +122,7 @@
             this.label13.Size = new System.Drawing.Size(120, 20);
             this.label13.TabIndex = 8;
             this.label13.Text = "Form Dekripsi";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label3
             // 
@@ -224,6 +226,7 @@
             this.button3.TabIndex = 16;
             this.button3.Text = "Simpan Gambar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label9
             // 
@@ -252,6 +255,7 @@
             this.pictureBox3.Location = new System.Drawing.Point(812, 89);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(500, 450);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 17;
             this.pictureBox3.TabStop = false;
             // 
@@ -279,6 +283,10 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             this.openFileDialog1.Filter = "Image Files|*.jpeg;*.jpg;*.bmp";
+            // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.Filter = "JPEG|*.jpeg|JPG|*.jpg|BMP|*.bmp";
             // 
             // Form1
             // 
@@ -341,6 +349,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 
