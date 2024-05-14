@@ -17,14 +17,32 @@ namespace desainUIKripto
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
+        public string Key { get => textBox1.Text; set => textBox1.Text = value; }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                var fileName = openFileDialog1.FileName;
+                pictureBox1.Image = new Bitmap(fileName);
+            }
+
+            var buffer = new byte[8];
+            var random = new Random();
+            random.NextBytes(buffer);
+            Key = Encoding.ASCII.GetString(buffer);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
+            if (!string.IsNullOrEmpty(Key))
+            {
+                var otpKey = Key;
+                var length = otpKey.Length;
+                var plainImage = pictureBox1.Image;
 
+                byte[] plain = new byte[plainImage.Width * plainImage.Height * 3];
+            }
         }
     }
 }

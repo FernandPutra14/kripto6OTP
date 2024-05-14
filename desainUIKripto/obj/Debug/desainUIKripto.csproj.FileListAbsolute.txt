@@ -10,3 +10,14 @@ C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\obj\Debug\desainUIKrip
 C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\obj\Debug\desainUIKripto.exe
 C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\obj\Debug\desainUIKripto.pdb
 C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\obj\Debug\desainUIKripto.Form2.resources
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\bin\Debug\desainUIKripto.exe.config
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\bin\Debug\desainUIKripto.exe
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\bin\Debug\desainUIKripto.pdb
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\obj\Debug\desainUIKripto.csproj.AssemblyReference.cache
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\obj\Debug\desainUIKripto.Form1.resources
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\obj\Debug\desainUIKripto.Form2.resources
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\obj\Debug\desainUIKripto.Properties.Resources.resources
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\obj\Debug\desainUIKripto.csproj.GenerateResource.cache
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\obj\Debug\desainUIKripto.csproj.CoreCompileInputs.cache
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\obj\Debug\desainUIKripto.exe
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\obj\Debug\desainUIKripto.pdb
