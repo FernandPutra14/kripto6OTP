@@ -1,0 +1,12 @@
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\desainUIKripto.exe.config
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\desainUIKripto.exe
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\desainUIKripto.pdb
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\obj\Debug\desainUIKripto.csproj.AssemblyReference.cache
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\obj\Debug\desainUIKripto.csproj.SuggestedBindingRedirects.cache
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\obj\Debug\desainUIKripto.Form1.resources
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\obj\Debug\desainUIKripto.Properties.Resources.resources
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\obj\Debug\desainUIKripto.csproj.GenerateResource.cache
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\obj\Debug\desainUIKripto.csproj.CoreCompileInputs.cache
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\obj\Debug\desainUIKripto.exe
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\obj\Debug\desainUIKripto.pdb
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\obj\Debug\desainUIKripto.Form2.resources
