@@ -28,7 +28,7 @@ namespace desainUIKripto
                 pictureBox3.Image = null;
             }
 
-            var buffer = new byte[8];
+            var buffer = new byte[10];
             var random = new Random();
             random.NextBytes(buffer);
             Key = Encoding.ASCII.GetString(buffer);
@@ -62,8 +62,10 @@ namespace desainUIKripto
                 }
 
                 var cipherImage = Program.UnflatImage(cipher, plainImage.Width, plainImage.Height);
+                var otpImage = Program.UnflatImage(otpKey.ToArray(), plainImage.Width, plainImage.Height);
 
                 pictureBox3.Image = cipherImage;
+                pictureBox4.Image = otpImage;
             }
         }
 
