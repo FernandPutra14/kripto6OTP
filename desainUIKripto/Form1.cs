@@ -26,11 +26,17 @@ namespace desainUIKripto
                 var fileName = openFileDialog1.FileName;
                 pictureBox1.Image = new Bitmap(fileName);
                 pictureBox3.Image = null;
+                pictureBox4.Image = null;
             }
 
             var buffer = new byte[10];
             var random = new Random();
-            random.NextBytes(buffer);
+
+            for (var i = 0; i < buffer.Length; i++)
+            {
+                buffer[i] = (byte)random.Next(0, 256);
+            }
+
             Key = Encoding.ASCII.GetString(buffer);
         }
 
@@ -38,6 +44,13 @@ namespace desainUIKripto
         {
             if (!string.IsNullOrEmpty(Key))
             {
+                using (var dbContext = new AppDbContext())
+                {
+                    var terpakai = dbContext.TabelKunciTerpakai.FirstOrDefault(k => k.Key == Key);
+                    if (terpakai != null)
+                        MessageBox.Show($"Kunci Sudah pernah digunakan untuk enkripsi pada {terpakai.WaktuDigunakan.ToShortDateString()}", "Kunci Terpakai", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
                 var otpKey = Key.Select(c =>
                 {
                     return (byte)c;
@@ -50,7 +63,7 @@ namespace desainUIKripto
                 var plain = Program.FlatImage(plainImage);
                 var cipher = new byte[plain.Length];
 
-                for(int i = 0; i < length; i++)
+                for (int i = 0; i < length; i++)
                 {
                     cipher[i] = (byte)((plain[i] + otpKey[i]) % 256);
                 }
@@ -66,6 +79,19 @@ namespace desainUIKripto
 
                 pictureBox3.Image = cipherImage;
                 pictureBox4.Image = otpImage;
+
+                using (var dbContext = new AppDbContext())
+                {
+                    var terpakai = new KunciTerpakai()
+                    {
+                        Id = dbContext.TabelKunciTerpakai.Count() + 1,
+                        Key = Key,
+                        WaktuDigunakan = DateTime.Now,
+                    };
+
+                    dbContext.TabelKunciTerpakai.Add(terpakai);
+                    dbContext.SaveChanges();
+                }
             }
         }
 
@@ -73,7 +99,7 @@ namespace desainUIKripto
         {
             if (pictureBox3.Image != null)
             {
-                if(saveFileDialog1.ShowDialog() == DialogResult.OK)
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
                 {
                     var fileName = saveFileDialog1.FileName;
 

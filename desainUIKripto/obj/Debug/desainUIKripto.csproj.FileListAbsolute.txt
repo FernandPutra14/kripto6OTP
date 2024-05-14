@@ -21,3 +21,8 @@ D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\obj\Debug\de
 D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\obj\Debug\desainUIKripto.csproj.CoreCompileInputs.cache
 D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\obj\Debug\desainUIKripto.exe
 D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\obj\Debug\desainUIKripto.pdb
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\bin\Debug\EntityFramework.dll
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\bin\Debug\EntityFramework.xml
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\obj\Debug\desainUIKripto.csproj.CopyComplete
