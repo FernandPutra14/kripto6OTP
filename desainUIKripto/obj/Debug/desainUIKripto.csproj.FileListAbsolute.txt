@@ -53,3 +53,35 @@ D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\bin\Debug\Ol
 D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\bin\Debug\OlahCitra.CustomControl.pdb
 D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\bin\Debug\Emgu.CV.Platform.NetStandard.xml
 D:\Tugas Adi\Kriptografi\Tugas Kelompok 1\kripto6OTP\desainUIKripto\bin\Debug\Emgu.CV.Bitmap.xml
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\EntityFramework.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\OlahCitra.Core.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\OlahCitra.CustomControl.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\Emgu.CV.Platform.NetStandard.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\Emgu.CV.Bitmap.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\System.Drawing.Common.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\OlahCitra.Core.pdb
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\OlahCitra.CustomControl.pdb
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\EntityFramework.xml
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\Emgu.CV.Platform.NetStandard.xml
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\Emgu.CV.Bitmap.xml
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\obj\Debug\desainUIKripto.FormHistogram.resources
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\obj\Debug\desainUIKripto.csproj.CopyComplete
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x64\concrt140.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x64\cvextern.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x64\msvcp140.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x64\msvcp140_1.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x64\msvcp140_2.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x64\msvcp140_codecvt_ids.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x64\opencv_videoio_ffmpeg440_64.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x64\vcruntime140.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x64\vcruntime140_1.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x86\concrt140.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x86\cvextern.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x86\msvcp140.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x86\msvcp140_1.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x86\msvcp140_2.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x86\msvcp140_codecvt_ids.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x86\opencv_videoio_ffmpeg440.dll
+C:\Users\putra\source\repos\desainUIKripto\desainUIKripto\bin\Debug\x86\vcruntime140.dll
