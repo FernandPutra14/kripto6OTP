@@ -115,5 +115,36 @@ namespace desainUIKripto
             var form2 = new Form2();
             form2.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+            {
+                var formHistogram = new FormHistogram();
+                formHistogram.SetHistogram(new Bitmap(pictureBox1.Image));
+                formHistogram.Show();
+
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (pictureBox3.Image != null)
+            {
+                var formHistogram = new FormHistogram();
+                formHistogram.SetHistogram(new Bitmap(pictureBox3.Image));
+                formHistogram.Show();
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (pictureBox4.Image != null)
+            {
+                var formHistogram = new FormHistogram();
+                formHistogram.SetHistogram(new Bitmap(pictureBox4.Image));
+                formHistogram.Show();
+            }
+        }
     }
 }

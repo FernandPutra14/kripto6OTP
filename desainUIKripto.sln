@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desainUIKripto", "desainUIKripto\desainUIKripto.csproj", "{79BC17E6-9A47-44ED-81DE-9339FC9EA001}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlahCitra.Core", "OlahCitra.Core\OlahCitra.Core.csproj", "{09384BFB-F1F1-4E3E-B48B-FB748E5AC541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlahCitra.CustomControl", "OlahCitra.CustomControl\OlahCitra.CustomControl.csproj", "{2409525E-5F68-49C6-B15E-6825C6045BD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{79BC17E6-9A47-44ED-81DE-9339FC9EA001}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79BC17E6-9A47-44ED-81DE-9339FC9EA001}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79BC17E6-9A47-44ED-81DE-9339FC9EA001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09384BFB-F1F1-4E3E-B48B-FB748E5AC541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09384BFB-F1F1-4E3E-B48B-FB748E5AC541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09384BFB-F1F1-4E3E-B48B-FB748E5AC541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09384BFB-F1F1-4E3E-B48B-FB748E5AC541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2409525E-5F68-49C6-B15E-6825C6045BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2409525E-5F68-49C6-B15E-6825C6045BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2409525E-5F68-49C6-B15E-6825C6045BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2409525E-5F68-49C6-B15E-6825C6045BD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
