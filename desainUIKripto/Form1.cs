@@ -29,15 +29,35 @@ namespace desainUIKripto
                 pictureBox4.Image = null;
             }
 
-            var buffer = new byte[10];
+            var key = GenerateRandomKey(10);
+
+            using (var dbContext = new AppDbContext())
+            {
+                while (true)
+                {
+                    var terpakai = dbContext.TabelKunciTerpakai.FirstOrDefault(k => k.Key == Key);
+                    if (terpakai == null)
+                        break;
+                    key = GenerateRandomKey(10);
+                }
+            }
+
+            Key = key;
+        }
+
+        public string GenerateRandomKey(int panjang)
+        {
+            if (panjang == 0) return "";
+
+            var buffer = new byte[panjang];
             var random = new Random();
 
             for (var i = 0; i < buffer.Length; i++)
-            {
                 buffer[i] = (byte)random.Next(0, 256);
-            }
 
-            Key = Encoding.ASCII.GetString(buffer);
+            var key = Encoding.UTF8.GetString(buffer);
+
+            return key;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -145,6 +165,12 @@ namespace desainUIKripto
                 formHistogram.SetHistogram(new Bitmap(pictureBox4.Image));
                 formHistogram.Show();
             }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+                Key = GenerateRandomKey(10);
         }
     }
 }
