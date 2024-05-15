@@ -100,6 +100,8 @@ namespace desainUIKripto
                 pictureBox3.Image = cipherImage;
                 pictureBox4.Image = otpImage;
 
+                HitungMsePsnr();
+
                 using (var dbContext = new AppDbContext())
                 {
                     var terpakai = new KunciTerpakai()
@@ -171,6 +173,37 @@ namespace desainUIKripto
         {
             if (pictureBox1.Image != null)
                 Key = GenerateRandomKey(10);
+        }
+
+        private void HitungMsePsnr()
+        {
+            if(pictureBox1.Image != null && pictureBox3 != null)
+            {
+                var gambarAsli = new Bitmap(pictureBox1.Image);
+                var gambarEnkripsi = new Bitmap(pictureBox3.Image);
+
+                double total = 0;
+                double mse = 0;
+                double psnr = 0;
+
+                for(int x = 0; x <  gambarAsli.Width; x++)
+                    for(int y = 0; y < gambarAsli.Height; y++)
+                    {
+                        var pikselAsli = gambarAsli.GetPixel(x, y);
+                        var pikselEnkripsi = gambarEnkripsi.GetPixel(x, y);
+
+                        var selisihRed = Math.Pow(pikselAsli.R - pikselEnkripsi.R, 2);
+                        var selisihGreen = Math.Pow(pikselAsli.G - pikselEnkripsi.G, 2);
+                        var selisihBlue = Math.Pow(pikselAsli.B - pikselEnkripsi.B, 2);
+
+                        total += (selisihRed + selisihGreen + selisihBlue);
+                    }
+
+                mse = total / (gambarAsli.Width * gambarAsli.Height * 3);
+                psnr = 10 * Math.Log10((255 * 255) / mse);
+
+                labelMsePsnr.Text = $"MSE : {mse:F4} | PSNR : {psnr:F4}";
+            }
         }
     }
 }
