@@ -64,6 +64,13 @@ namespace desainUIKripto
         {
             if (!string.IsNullOrEmpty(Key))
             {
+                if (Key.Length < 10)
+                {
+                    MessageBox.Show("Kunci Harus Minimal 10", "Kunci Tidak Valid", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    Key = string.Empty;
+                    return;
+                }
+
                 using (var dbContext = new AppDbContext())
                 {
                     var terpakai = dbContext.TabelKunciTerpakai.FirstOrDefault(k => k.Key == Key);
